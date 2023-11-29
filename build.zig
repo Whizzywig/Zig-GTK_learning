@@ -14,7 +14,7 @@ pub fn build(b: *std.Build) void {
     
     exe.linkLibC();
 
-    ///TODO: Find a way to tell people who build on windows that it won't work only cross compiling for windows could work
+    //TODO: Find a way to tell people who build on windows that it won't work only cross compiling for windows could work
         
     //link for any other operating system
     exe.addLibraryPath(.{ .path = "/bin"});
